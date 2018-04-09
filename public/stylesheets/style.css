@@ -1,0 +1,30 @@
+body {
+  text-align: center;
+  background: linear-gradient(purple, grey);
+  background-repeat: no-repeat;
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+body{
+  padding: 600px;
+  padding-top: 100px;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1{
+  color: Red;
+}
+
+#sub {
+  background-color: black;
+  color: green;
+}
+
+#delete_button {
+  background-color: black;
+  color: red;
+}
