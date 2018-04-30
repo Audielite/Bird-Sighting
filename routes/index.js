@@ -115,7 +115,7 @@ router.post('/deleteBird', function(req, res, next){
   Bird.deleteOne( { _id : req.body._id } )
     .then( (result) => {
 
-      if (result.deleteCount === 1) {
+      if (result.n === 1) {
         res.redirect('/');
 
       } else {
